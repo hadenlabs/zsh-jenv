@@ -23,6 +23,11 @@ function jenv::internal::jenv::load {
   eval "$(jenv init -)"
 }
 
+function jenv::add {
+  local version="${1}"
+  jenv add "${JENV_SDK_MAN_CANDIDATES_PATH}/${version}"
+}
+
 function jenv::internal::version::all::install {
     if ! core::exists sdk; then
         message_warning "not found sdk"
@@ -32,6 +37,7 @@ function jenv::internal::version::all::install {
     for version in "${JENV_JAVA_VERSIONS[@]}"; do
         message_info "Install version of java ${version}"
         sdk install java "${version}"
+        jenv::add "${version}"
         message_success "Installed version of java ${version}"
     done
     sdk default java "${JENV_JAVA_VERSION_GLOBAL}"
@@ -47,6 +53,7 @@ function jenv::internal::version::global::install {
     message_info "Installing version global of java ${JENV_JAVA_VERSION_GLOBAL}"
     sdk install java "${JENV_JAVA_VERSION_GLOBAL}"
     sdk default java "${JENV_JAVA_VERSION_GLOBAL}"
+    jenv::add "${JENV_JAVA_VERSION_GLOBAL}"
     message_success "Installed version global of java ${JENV_JAVA_VERSION_GLOBAL}"
 }
 
