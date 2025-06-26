@@ -1,7 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Installation Antigen ZshPluginTemplate -->
-<!-- Label: ZshPluginTemplate -->
+<!-- Parent: ZshJenv -->
+<!-- Title: Installation Antigen ZshJenv -->
+<!-- Label: ZshJenv -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Antigen -->
@@ -12,6 +12,6 @@
 
 If you're using [Antigen](https://github.com/zsh-users/antigen), install this plugin by doing the following:
 
-1.  Add `antigen bundle hadenlabs/zsh-plugin-template` to your `.zshrc` where you're adding your other plugins.
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-plugin-template` in a running zsh session.
+1.  Add `antigen bundle hadenlabs/zsh-jenv` to your `.zshrc` where you're adding your other plugins.
+2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-jenv` in a running zsh session.
 3.  Enjoy!

@@ -12,90 +12,20 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-plugin-template)](https://github.com/hadenlabs/zsh-plugin-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/lint-code)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/ci)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/test)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-jenv)](https://github.com/hadenlabs/zsh-jenv/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-jenv/lint-code)](https://github.com/hadenlabs/zsh-jenv/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-jenv/ci)](https://github.com/hadenlabs/zsh-jenv/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-jenv/test)](https://github.com/hadenlabs/zsh-jenv/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
-# zsh-plugin-template
+# zsh-jenv
 
-zsh-plugin-template for project
-
-### Replace name project to New Project
-
-```bash
-  agr 'zsh-plugin-template' 'new-project'
-  agr 'plugin-template' 'name_template'
-  agr 'PLUGIN_TEMPLATE' 'NAME_TEMPLATE'
-  agr 'ZshPluginTemplate' 'NameTemplate'
-```
+zsh-jenv for project
 
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-- [zsh-plugin-name](https://github.com/hadenlabs/zsh-plugin-template)
+- [zsh-plugin-name](https://github.com/hadenlabs/zsh-jenv)
 - [gomplate](https://github.com/hairyhenderson/gomplate)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
-
-## Installation
-
-<!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Installation Oh-My-Zsh ZshPluginTemplate -->
-<!-- Label: ZshPluginTemplate -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Label: Oh-My-Zsh -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
-
-### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) users
-
-If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this plugin by doing the following:
-
-1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
-2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-plugin-template`bash
-3.  Edit your `.zshrc` and add `plugins=( ... zsh-plugin-template )` to your list of plugins
-4.  Open a new terminal and enjoy!
-    <!-- Space: Projects -->
-    <!-- Parent: ZshPluginTemplate -->
-    <!-- Title: Installation Antigen ZshPluginTemplate -->
-    <!-- Label: ZshPluginTemplate -->
-    <!-- Label: Project -->
-    <!-- Label: Installation -->
-    <!-- Label: Antigen -->
-    <!-- Include: docs/disclaimer.md -->
-    <!-- Include: ac:toc -->
-
-### [antigen](https://github.com/zsh-users/antigen) users
-
-If you're using [Antigen](https://github.com/zsh-users/antigen), install this plugin by doing the following:
-
-1.  Add `antigen bundle hadenlabs/zsh-plugin-template` to your `.zshrc` where you're adding your other plugins.
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-plugin-template` in a running zsh session.
-3.  Enjoy!
-    <!-- Space: Projects -->
-    <!-- Parent: ZshPluginTemplate -->
-    <!-- Title: Installation Antibody ZshPluginTemplate -->
-    <!-- Label: ZshPluginTemplate -->
-    <!-- Label: Project -->
-    <!-- Label: Installation -->
-    <!-- Include: docs/disclaimer.md -->
-    <!-- Include: ac:toc -->
-
-### [antibody](https://github.com/getantibody/antibody) users
-
-If you're using [Antibody](https://github.com/getantibody/antibody), install this plugin by doing the following:
-
-1. Add :
-
-```{.sourceCode .bash}
-antibody bundle hadenlabs/zsh-plugin-template
-```
-
-to your `.zshrc` where you're adding your other plugins.
-
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-plugin-template` in a running zsh session.
-3.  Enjoy!
 
 ## Usage
 
@@ -108,17 +38,23 @@ task setup
 ## Examples
 
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Examples ZshPluginTemplate -->
+<!-- Parent: ZshJenv -->
+<!-- Title: Examples ZshJenv -->
 <!-- Label: Examples -->
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### Common
+## Common
+
+### Install Dependencies
+
+```bash
+task setup
+```
 
  <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Functions ZshPluginTemplate -->
+<!-- Parent: ZshJenv -->
+<!-- Title: Functions ZshJenv -->
 <!-- Label: Functions -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -127,9 +63,9 @@ task setup
 
 ## Help
 
-**Got a question?**
+### Got a question?
 
-File a GitHub [issue](https://github.com/hadenlabs/zsh-plugin-template/issues).
+File a GitHub [issue](https://github.com/hadenlabs/zsh-jenv/issues).
 
 ## Contributing
 
@@ -152,7 +88,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2024 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2025 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 
@@ -162,6 +98,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like zsh-plugin-template
+## Don't forget to 🌟 Star 🌟 the repo if you like zsh-jenv
 
-[Your feedback is appreciated](https://github.com/hadenlabs/zsh-plugin-template/issues)
+[Your feedback is appreciated](https://github.com/hadenlabs/zsh-jenv/issues)

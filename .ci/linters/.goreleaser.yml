@@ -3,7 +3,7 @@
 project_name: zsh-plugin-name
 env:
   - GO111MODULE=on
-  - REPO=github.com/hadenlabs/zsh-plugin-template
+  - REPO=github.com/hadenlabs/zsh-jenv
 before:
   hooks:
     - go mod download
@@ -64,10 +64,11 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
 release:
   github:
     owner: hadenlabs
-    name: zsh-plugin-name
+    name: zsh-jenv
   draft: true
   prerelease: auto
   name_template: "{{.ProjectName}}-v{{.Version}}-{{.ShortCommit}}-{{.Date}}"

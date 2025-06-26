@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: zsh-plugin-template
+name: zsh-jenv
 
 email:
   support: support@hadenlabs.com
@@ -17,22 +17,22 @@ email:
 license: "LGPL-3.0"
 
 # Canonical GitHub repo
-github_repo: hadenlabs/zsh-plugin-template
+github_repo: hadenlabs/zsh-jenv
 
 # Badges to display
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/zsh-plugin-template
-    url: https://github.com/hadenlabs/zsh-plugin-template/releases
+    image: https://img.shields.io/github/release/hadenlabs/zsh-jenv
+    url: https://github.com/hadenlabs/zsh-jenv/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/lint-code
-    url: https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-jenv/lint-code
+    url: https://github.com/hadenlabs/zsh-jenv/actions?workflow=lint-code
   - name: CI
-    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/ci
-    url: https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=ci
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-jenv/ci
+    url: https://github.com/hadenlabs/zsh-jenv/actions?workflow=ci
   - name: Test
-    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/test
-    url: https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=test
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-jenv/test
+    url: https://github.com/hadenlabs/zsh-jenv/actions?workflow=test
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -47,7 +47,7 @@ requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-  - [zsh-plugin-name](https://github.com/hadenlabs/zsh-plugin-template)
+  - [zsh-plugin-name](https://github.com/hadenlabs/zsh-jenv)
   - [gomplate](https://github.com/hairyhenderson/gomplate)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
@@ -55,21 +55,7 @@ requirements: |-
 # Short description of this project
 description: |-
 
-  zsh-plugin-template for project
-
-  ### Replace name project to New Project
-
-  ```bash
-    agr 'zsh-plugin-template' 'new-project'
-    agr 'plugin-template' 'name_template'
-    agr 'PLUGIN_TEMPLATE' 'NAME_TEMPLATE'
-    agr 'ZshPluginTemplate' 'NameTemplate'
-  ```
-
-installation:
-  - "docs/include/installation/oh-my-zsh.md"
-  - "docs/include/installation/antigen.md"
-  - "docs/include/installation/antibody.md"
+  zsh-jenv for project
 
 usages:
   - docs/usage.md

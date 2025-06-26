@@ -1,7 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Installation Oh-My-Zsh ZshPluginTemplate -->
-<!-- Label: ZshPluginTemplate -->
+<!-- Parent: ZshJenv -->
+<!-- Title: Installation Oh-My-Zsh ZshJenv -->
+<!-- Label: ZshJenv -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Oh-My-Zsh -->
@@ -13,6 +13,6 @@
 If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this plugin by doing the following:
 
 1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
-2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-plugin-template`bash
-3.  Edit your `.zshrc` and add `plugins=( ... zsh-plugin-template )` to your list of plugins
+2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-jenv`bash
+3.  Edit your `.zshrc` and add `plugins=( ... zsh-jenv )` to your list of plugins
 4.  Open a new terminal and enjoy!
