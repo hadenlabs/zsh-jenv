@@ -5,7 +5,7 @@
 # Defines functions zsh_jenv for osx or linux.
 #
 # Authors:
-#   Luis Mayta <slovacus@gmail.com>
+#   Luis Mayta <luis@hadenlabs.com>
 #
 #
 ZSH_JENV_PATH=$(dirname "${0}")

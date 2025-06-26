@@ -19,3 +19,8 @@ function jenv::internal::main::factory {
 }
 
 jenv::internal::main::factory
+
+jenv::internal::load
+
+if ! core::exists jenv; then core::install jenv; fi
+if ! core::exists sdk; then jenv::internal::sdk::install; fi
